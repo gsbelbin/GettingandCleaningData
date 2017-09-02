@@ -19,7 +19,7 @@ ACTIVITYLABEL		Factor
 ### Observation variables
 These number variables are named according to the following code:-
 
-angle-------The angle between vectors
+angle&tab;The angle between vectors
 t-----------Time domain signals captured at a constant rate of 50 Hz
 f-----------Frequency domain signals produced by the application of a Fast Fourier Transform (FFT)
 
