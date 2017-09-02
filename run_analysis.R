@@ -78,4 +78,4 @@ finalsummarised <- summarise_at(finalgrouped, vars(tBodyAccmeanX:fBodyBodyGyroJe
 names(finalsummarised)[3:88] <- paste(names(finalsummarised)[3:88],"MEAN", sep = "")
 
 ## Output the summarised data to a file called finalsummarised.txt
-write.table(finalsummarised, file = "finalsummarised.txt")
+write.table(finalsummarised, file = "finalsummarised.txt", row.names = FALSE)
