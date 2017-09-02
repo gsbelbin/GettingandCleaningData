@@ -19,7 +19,7 @@ ACTIVITYLABEL		Factor
 ### Observation variables
 These number variables are named according to the following code:-
 
-angle-The angle between vectors
+angle - The angle between vectors
 
 t-Time domain signals captured at a constant rate of 50 Hz
 
