@@ -19,47 +19,47 @@ ACTIVITYLABEL		Factor
 ### Observation variables
 These number variables are named according to the following code:-
 
-angle		The angle between vectors
+angle-The angle between vectors
 
-t-----------Time domain signals captured at a constant rate of 50 Hz
+t-Time domain signals captured at a constant rate of 50 Hz
 
-f-----------Frequency domain signals produced by the application of a Fast Fourier Transform (FFT)
-
-
-Body		A body acceleration signal calculated by subtracting the acceleration due to gravity
-
-Gravity		A gravity acceleration signal
+f-Frequency domain signals produced by the application of a Fast Fourier Transform (FFT)
 
 
-Acc			Acceleration signal measured by an accelerometer, measured in standard gravity units,  'g'
+Body-A body acceleration signal calculated by subtracting the acceleration due to gravity
 
-Gyro		An angular velocity signal measured by gyroscope, measured in radians per second
-
-
-Jerk		Signals derived from the body linear acceleration and angular velocity
+Gravity-A gravity acceleration signal
 
 
-Mag			Magnitude of the 3-dimensional signals
+Acc-Acceleration signal measured by an accelerometer, measured in standard gravity units,  'g'
+
+Gyro-An angular velocity signal measured by gyroscope, measured in radians per second
 
 
-mean		Mean signal for each measurement
-
-std			Standard deviation of each measurement
-
-meanFreq	Weighted average of the frequency components to obtain a mean frequency
+Jerk-Signals derived from the body linear acceleration and angular velocity
 
 
-X, Y, Z		These are to indicate the direction of the signal
+Mag-Magnitude of the 3-dimensional signals
 
 
-MEAN		This is appended to every measurement name to emphasise that each 
+mean-Mean signal for each measurement
+
+std-Standard deviation of each measurement
+
+meanFreq-Weighted average of the frequency components to obtain a mean frequency
+
+
+X, Y, Z-These are to indicate the direction of the signal
+
+
+MEAN-This is appended to every measurement name to emphasise that each 
          	figure is a mean of all the measurements for each subject carrying out
          	each activity
 
 
 ### Example
 
-tBodyAccstdXMEAN	This is the mean of all time domain, body, acceleration, standard
+tBodyAccstdXMEAN-This is the mean of all time domain, body, acceleration, standard
                     deviation in the X direction for a particular subject and activity
 
 
